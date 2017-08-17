@@ -1,3 +1,13 @@
+set tabstop=4
+set nu
+set ts=4
+set expandtab
+syntax on
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+set hlsearch
+set ruler 
 set tags+=~/.vim/tags/cpp_src/tags " 设置tags搜索路径
 set wildmode=longest,list " Ex命令自动补全采用bash方式"
 syntax on
