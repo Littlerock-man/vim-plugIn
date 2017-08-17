@@ -9,8 +9,8 @@ set autoindent
 set hlsearch
 execute pathogen#infect()
 filetype plugin indent on
-map <C-n> :NERDTree<CR>
-map <C-t> :TlistToggle<CR>
+map <F7> :NERDTree<CR>
+map <F8> :TlistToggle<CR>
 let g:NERDTreeWinSize=20
 let Tlist_Show_One_File=1    " 只展示一个文件的taglist
 let Tlist_Exit_OnlyWindow=1  " 当taglist是最后以个窗口时自动退出
